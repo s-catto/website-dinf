@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body {
+  background-image: url("./assets/background/stars.jpg");
+  color: black;
+  font-family: "Comic Sans", sans-serif;
+}
+
+header {
+  background-color: purple;
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+nav {
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  text-align: center;
+  color: yellow;
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 84px;
+}
+
+h2 {
+    color: yellow
+}
+
+.center-text {
+  text-align: center;
+}
+
+h3 {
+  color: #c23276
+}
+
+h4 {
+  padding: 0;
+  border: 0;
+  color: yellow;
+}
+
+a:link {
+  color: yellow
+}
+
+a:visited {
+  color: yellow
+}
+
+ul {
+    list-style-image: url(assets/icones/star1.gif);
+}
+
+#pfp {
+  display: inline;
+  background-image: url("assets/background/stars.webp");
+  background-repeat: no-repeat;
+  padding: 25px 25px;
+}
+
+#gata {
+  width: 160px;
+  height: 200px;
+}
+
+#main {
+  background-color: #20124d;
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 75%;    
+}
+
+#magia {
+  height: 20px;
+}
+
+#tooth {
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 75%;    
+}
+
+#bolas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 124px;
+}
+
+.bola {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin: 1px 0;  
+  color: #00ff00
+}
+
+img {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Comic Sans";
+  src: url('assets/ComicSansMS3.ttf') format('truetype');
+}
+
+/* body {
+    background-color: #130030;
+}
+
+h1 {
+    color: #00FF00;
+    text-align: center;
+}
+
+#obras {
+    color: white;
+    text-align: center;
+}
+
+.subTitulo {
+    color: white;
+}
+
+.subsubTitulo {
+    color: white;
+}
+
+.texto {
+    color: white;
+}
+
+#buildGif {
+    width: 300px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
