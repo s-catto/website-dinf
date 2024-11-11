@@ -18,12 +18,15 @@ header {
 }
 
 nav {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-elem {
   background-color: #00ff00;
   color: #c23276;
+  margin: 10px;
+  text-align: center;
 }
 
 h1 {
@@ -98,9 +101,14 @@ ul {
 
 #main {
   background-color: #20124d;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 10px 20px;
   width: 75%;   
+}
+
+#counter {
+  display: flex;
+  justify-content: end;
 }
 
 #eu {
@@ -120,13 +128,25 @@ ul {
   justify-content: flex-end;
 }
 
+#buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#update {
+  background-color: #e9158d;
+  margin: 0 auto;
+  padding: 0px 20px;
+  width: 75%;   
+  text-align: center;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   background-color: purple;
   margin: 20px auto;
-  padding: 10px 20px;
-  width: 75%;    
+  width: 90%;    
 }
 
 #bolas {
@@ -143,14 +163,27 @@ footer {
   margin-right: auto;
 }
 
+#continue {
+  margin: 10px auto;
+  background-color: #00ff00;
+  color: #c23276;
+  text-align: center;
+  width: 90%;  
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#bottom_button {
+  display: flex;
+  justify-content: end;
+}
+
 p {
   margin: 1px 0;  
   color: #00ff00
-}
-
-img {
-  height: 100%;
-  margin: 0;
 }
 
 @font-face {

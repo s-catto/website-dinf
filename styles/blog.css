@@ -40,15 +40,17 @@ header {
 }
 
 nav {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-elem {
-    background-color: #00ff00;
+  background-color: #00ff00;
+  margin: 10px;
 }
 
 #statusbar {
-  background-color: #c23276;
+  background-color: #e9158d;
   width: 50%;
   align-self: center;
 }
@@ -142,14 +144,14 @@ footer {
   width: 75%;    
 }
 
+#bottom_button {
+  display: flex;
+  justify-content: end;
+}
+
 p {
   margin: 1px 0;  
   color: #00ff00
-}
-  
-img {
-  height: 100%;
-  margin: 0;
 }
   
 @font-face {

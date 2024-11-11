@@ -18,12 +18,14 @@ header {
 }
 
 nav {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-elem {
   background-color: #00ff00;
   color: #c23276;
+  margin: 10px;
 }
 
 h1 {
@@ -98,7 +100,7 @@ ul {
 
 #main {
   background-color: #20124d;
-  margin: 20px auto;
+  margin: 0px auto;
   padding: 10px 20px;
   width: 75%; 
 }
@@ -135,6 +137,11 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#bottom_button {
+  display: flex;
+  justify-content: end;
 }
 
 p {

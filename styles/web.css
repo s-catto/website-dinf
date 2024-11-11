@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
 body {
-  background-image: url("../assets/background/stars.jpg");
+  background-image: url("../assets/img/geral/background/space.jpg");
   color: black;
   font-family: "Comic Sans", sans-serif;
+  cursor: url("../assets/img/geral/cursor_wizard.png"), auto;
 }
 
 header {
@@ -17,7 +18,14 @@ header {
 }
 
 nav {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-elem {
+  background-color: #00ff00;
+  color: #c23276;
+  margin: 10px;
 }
 
 h1 {
@@ -56,15 +64,49 @@ a:visited {
   color: yellow
 }
 
+a.nav-elem:link {
+  color: #c23276;
+}
+
+a.nav-elem:visited {
+  color: #c23276;
+}
+
+ul {
+    list-style-image: url(../assets/img/geral/starTopic.gif);
+}
+
+#pfp {
+  display: inline;
+  background-image: url("../assets/img/geral/background/stars.webp");
+  background-repeat: no-repeat;
+  padding: 25px 25px;
+}
+
+#gata {
+  width: 160px;
+  height: 200px;
+  background-image: url("../assets/img/geral/gata.png");
+  background-repeat: no-repeat;
+  background-size: 160px;
+}
+
+#gata:hover {
+  background-image: url("../assets/img/geral/linguinha.png");
+  background-repeat: no-repeat;
+  background-size: 160px;  
+  background-position-y: center;
+}
+
 #main {
   background-color: #20124d;
   margin: 0px auto;
   padding: 10px 20px;
   width: 75%;   
 }
-  
-ul {
-  list-style-image: url(assets/icones/star1.gif);
+
+.divider {
+    width: 100%;
 }
 
 footer {
@@ -75,22 +117,17 @@ footer {
   width: 90%;    
 }
 
-#bottom_button {
-  display: flex;
-  justify-content: end;
-}
-
 p {
   margin: 1px 0;  
   color: #00ff00
 }
-  
+
 img {
   height: 100%;
   margin: 0;
 }
-  
+
 @font-face {
   font-family: "Comic Sans";
-  src: url('assets/ComicSansMS3.ttf') format('truetype');
+  src: url('../assets/ComicSansMS3.ttf') format('truetype');
 }
