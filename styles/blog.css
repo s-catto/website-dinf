@@ -62,7 +62,15 @@ nav {
 }
 
 .status {
-    align-content: center;
+  align-content: center;
+}
+
+#statusimgcont {
+  max-width: 25%;
+}
+
+#statusimg {
+  max-width: 100%;
 }
 
 h1 {
