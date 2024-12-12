@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
 body {
-  background-image: url("../assets/img/geral/background/space.jpg");
+  background-image: url("../assets/img/blog/newLeaf/background.png");
   cursor: url("../assets/img/geral/cursor_wizard.png"), auto;
-  color: black;
   font-family: "Comic Sans", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: purple;
+  background-color: #00921d;
   margin: 0 auto;
   width: 90%;
   height: 200px;
@@ -19,9 +18,9 @@ header {
   overflow: hidden;
 }
 
-#blog {
-    width: 150px;
-    height: auto;    
+#ds {
+    width: 25%;
+    align-self: center;
 }
 
 #gata {
@@ -39,53 +38,20 @@ header {
   background-position-y: center;
 }
 
+#pfp {
+    display: inline;
+    background-repeat: no-repeat;
+    padding: 25px 25px;
+}
+
 nav {
   display: flex;
   justify-content: center;
 }
 
 .nav-elem {
-  background-color: #00ff00;
-  margin: 10px;
-}
-
-#statusbar {
-  background-color: #e9158d;
-  width: 50%;
-  align-self: center;
-}
-
-#statuscontent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.status {
-  align-content: center;
-}
-
-#statusimgcont {
-  max-width: 25%;
-}
-
-#statusimg {
-  max-width: 100%;
-}
-
-.blog-cat {
   background-color: purple;
-  color: yellow; 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  margin-top: 10px;
-}
-
-.blog-cat-img {
-  height: 30px;
-  align-self: center;
+  margin: 10px;
 }
 
 h1 {
@@ -125,28 +91,52 @@ a:visited {
 }
 
 a.nav-elem:link {
-    color: #c23276;
+    color: yellow;
 }
 
 a.nav-elem:visited {
-    color: #c23276;
+    color: yellow;
 }
 
 a:link {
-  color: #00ff00
+  color: #c23276;
 }
   
 a:visited {
-    color: #00ff00
+    color: #c23276;
+}
+
+.prog {
+    background-color: #f96995;
+    color: yellow; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#obs {
+    width: fit-content;
+    background-color: #f96995;
+    align-self: center;
 }
 
 .main {
-  background-color: #20124d;
+  background-color: #60af17;
   margin: 20px auto;
   padding: 10px 20px;
   width: 75%;   
   display: flex;
   flex-direction: column;
+}
+
+.imagem {
+    width: 75%;
+    align-self: center;
 }
 
 .data {
@@ -174,7 +164,7 @@ footer {
 
 p {
   margin: 1px 0;  
-  color: #00ff00
+  color:darkblue;
 }
   
 @font-face {
