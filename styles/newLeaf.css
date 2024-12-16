@@ -2,7 +2,7 @@
 
 body {
   background-image: url("../assets/img/blog/newLeaf/background.png");
-  cursor: url("../assets/img/geral/cursor_wizard.png"), auto;
+  cursor: url("../assets/img/blog/newLeaf/cursor.png"), auto;
   font-family: "Comic Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -137,6 +137,10 @@ a:visited {
 .imagem {
     width: 75%;
     align-self: center;
+}
+
+.emoticon {
+  width: 15px;
 }
 
 .data {

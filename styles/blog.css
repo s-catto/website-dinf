@@ -149,6 +149,10 @@ a:visited {
   flex-direction: column;
 }
 
+#stitch {
+  width: 50%;
+}
+
 .data {
     align-self: end;
     color: #1F51FF;
