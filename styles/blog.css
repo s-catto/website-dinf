@@ -153,6 +153,10 @@ a:visited {
   width: 50%;
 }
 
+#guedes {
+  width: 25%;
+}
+
 .data {
     align-self: end;
     color: #1F51FF;
