@@ -132,14 +132,6 @@ a.nav-elem:visited {
     color: #c23276;
 }
 
-a:link {
-  color: #00ff00
-}
-  
-a:visited {
-    color: #00ff00
-}
-
 .main {
   background-color: #20124d;
   margin: 20px auto;
