@@ -141,8 +141,7 @@ p {
 
 #main {
   background-color: #20124d;
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin: 40px auto;
   padding: 10px;
   width: 75%; 
   outline-style: groove;
@@ -165,6 +164,7 @@ p {
   outline: invert;
   outline-color: rgb(68, 49, 2);
   width: 50%;
+  max-width: 420px;
 }
 
 #interrupt {
