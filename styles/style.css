@@ -29,6 +29,10 @@ nav {
   text-align: center;
 }
 
+.nav-elem:hover {
+  transform: rotate(15deg);
+}
+
 h1 {
   display: inline;
   text-align: center;
@@ -141,6 +145,27 @@ ul {
   text-align: center;
 }
 
+#doomsday {
+  display: flex;
+  justify-content: end;
+  padding-top: 5%;
+}
+
+#saber {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#balaodefala {
+  background-image: url(../assets/img/home/AAAAA.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: rotate(-20deg);
+  align-content: space-around;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -184,6 +209,15 @@ footer {
 p {
   margin: 1px 0;  
   color: #00ff00
+}
+
+#dia {
+  color: black;
+}
+
+#aprender {
+  background-color: #20124d;
+  border-style: double;
 }
 
 @font-face {

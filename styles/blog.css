@@ -88,6 +88,17 @@ nav {
   align-self: center;
 }
 
+#imgs3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+
+.emo {
+  max-width: 30%;
+  padding: 1%;
+}
+
 h1 {
   display: inline;
   text-align: center;
@@ -130,6 +141,14 @@ a.nav-elem:link {
 
 a.nav-elem:visited {
     color: #c23276;
+}
+
+a:link {
+  color: #00ff00
+}
+  
+a:visited {
+    color: #00ff00
 }
 
 .main {
