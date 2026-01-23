@@ -47,13 +47,18 @@ h2 {
   text-align: center;
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h3 {
-  color: #c23276
+  color: yellow;
 }
 
 h4 {
-  padding: 0;
-  border: 0;
+  margin: 10px 20px;
   color: yellow;
 }
 
@@ -75,6 +80,11 @@ a.nav-elem:visited {
 
 ul {
     list-style-image: url(../assets/img/geral/starTopic.gif);
+}
+
+table, th, td {
+  border:1px solid yellow;
+  text-align: center;
 }
 
 #pfp {
@@ -102,8 +112,13 @@ ul {
 #main {
   background-color: #20124d;
   margin: 0 auto;
+  margin-bottom: 20px;
   padding: 10px 20px;
   width: 75%;   
+}
+
+#divider {
+  width: 100%;
 }
 
 #counter {
@@ -111,16 +126,29 @@ ul {
   justify-content: end;
 }
 
-#eu {
-  width: 25%;
+#desafiador {
+  min-width: 25%;
+  max-width: 50%;
 }
 
-#magia {
-  height: 20px;
+canvas {
+  border: 1px solid #00ff00;
+  background-color: black;
+  max-width: 50%;
 }
 
-#tooth {
-  height: 30px;
+#joguinho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bora {
+  margin: 5%;
+  background-color: #c23276;
+  color: yellow;
+  border: 2px solid #00ff00;
+  font-size: large;
 }
 
 #wizard {
@@ -162,34 +190,34 @@ ul {
   align-content: space-around;
 }
 
+#boom_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#boomzinho {
+  height: 20px;
+}
+
+#tabela {
+  display: grid;
+  justify-items: center;
+}
+
+#lego {
+  width: 50%; 
+  margin: -12% -10%;
+  max-width: 400px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   background-color: purple;
   margin: 20px auto;
   width: 90%;    
-}
-
-#bolas {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 130px;
-}
-
-.bola {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#continue {
-  margin: 10px auto;
-  background-color: #00ff00;
-  color: #c23276;
-  text-align: center;
-  width: 90%;  
 }
 
 #buttons {
@@ -213,7 +241,7 @@ p {
 
 #aprender {
   background-color: #20124d;
-  border-style: double;
+  color: #20124d;
 }
 
 @font-face {

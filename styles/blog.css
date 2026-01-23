@@ -168,6 +168,14 @@ a:visited {
   width: 25%;
 }
 
+.cita {
+  margin: 20px 0px;
+  padding-left: 10px;
+  border-left: 2px solid #00ff00;
+  align-self: end;
+  width: 95%;
+}
+
 .data {
     align-self: end;
     color: #1F51FF;
