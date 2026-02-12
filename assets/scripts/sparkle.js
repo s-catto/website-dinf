@@ -14,6 +14,7 @@
     *  http://www.mf2fm.com/rv  *
     * DON'T EDIT BELOW THIS BOX *
     ****************************/
+
     var x=ox=400;
     var y=oy=300;
     var swide=800;
@@ -33,7 +34,7 @@
     var blok=new Array();
     var boddie;
     
-    window.onload=function() { if (document.getElementById) {
+    function brilhos () { if (document.getElementById) {
       var i, rats, rlef, rdow, d, s;
       boddie=document.createElement("div");
       s=boddie.style;
@@ -255,5 +256,7 @@
       c.sort(function(){return (0.5 - Math.random());});
       return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
     }
+
+    window.addEventListener('load', brilhos);
 
 // ]]>

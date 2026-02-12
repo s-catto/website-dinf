@@ -24,16 +24,7 @@
     var sleft=sdown=0;
     var count=0;
     
-    function addLoadEvent(funky) {
-      var oldonload=window.onload;
-      if (typeof(oldonload)!='function') window.onload=funky;
-      else window.onload=function() {
-        if (oldonload) oldonload();
-        funky();
-      }
-    }
-    
-    addLoadEvent(clicksplode);
+    window.addEventListener('load', clicksplode);
     
     function clicksplode() { if (document.getElementById) {
       var i, j;

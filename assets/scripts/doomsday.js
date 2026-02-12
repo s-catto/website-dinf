@@ -98,4 +98,4 @@ function calcDiaSemana (d, m, a) {
 // main
 const d = new Date();
 
-window.onload = calcDiaSemana(d.getDate(), d.getMonth() + 1, d.getFullYear());
+window.addEventListener('load', calcDiaSemana(d.getDate(), d.getMonth() + 1, d.getFullYear()));
