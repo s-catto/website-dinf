@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body {
+  background-image: url("../assets/img/geral/background/space.jpg");
+  cursor: url("../assets/img/geral/cursor_wizard.png"), auto;
+  color: black;
+  font-family: "Comic Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: purple;
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+#blog {
+    width: 150px;
+    height: auto;    
+}
+
+#gata {
+  width: 160px;
+  height: 200px;
+  background-image: url("../assets/img/geral/gata.png");
+  background-repeat: no-repeat;
+  background-size: 160px;
+}
+
+#gata:hover {
+  background-image: url("../assets/img/geral/linguinha.png");
+  background-repeat: no-repeat;
+  background-size: 160px;  
+  background-position-y: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-elem {
+  background-color: #00ff00;
+  margin: 10px;
+}
+
+#statusbar {
+  background-color: #e9158d;
+  width: 50%;
+  align-self: center;
+}
+
+#statuscontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.status {
+  align-content: center;
+}
+
+#statusimgcont {
+  max-width: 25%;
+}
+
+#statusimg {
+  max-width: 100%;
+}
+
+.blog-cat {
+  background-color: purple;
+  color: yellow; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.blog-cat-img {
+  height: 30px;
+  align-self: center;
+}
+
+#imgs3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+
+.emo {
+  max-width: 30%;
+  padding: 1%;
+}
+
+h1 {
+  display: inline;
+  text-align: center;
+  color: yellow;
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 84px;
+}
+
+h2 {
+    color: yellow
+}
+
+.center-text {
+  text-align: center;
+}
+
+h3 {
+  color: #c23276
+}
+
+h4 {
+  padding: 0;
+  border: 0;
+  color: yellow;
+}
+
+a:link {
+  color: yellow
+}
+
+a:visited {
+  color: yellow
+}
+
+a.nav-elem:link {
+    color: #c23276;
+}
+
+a.nav-elem:visited {
+    color: #c23276;
+}
+
+a:link {
+  color: #00ff00
+}
+  
+a:visited {
+    color: #00ff00
+}
+
+.main {
+  background-color: #20124d;
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 75%;   
+  display: flex;
+  flex-direction: column;
+}
+
+#stitch {
+  width: 50%;
+}
+
+#guedes {
+  width: 25%;
+}
+
+.cita {
+  margin: 20px 0px;
+  padding-left: 10px;
+  border-left: 2px solid #00ff00;
+  align-self: end;
+  width: 95%;
+}
+
+.data {
+    align-self: end;
+    color: #1F51FF;
+}
+  
+ul {
+  list-style-image: url(../assets/img/geral/starTopic.gif);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 75%;    
+}
+
+#bottom_button {
+  display: flex;
+  justify-content: end;
+}
+
+p {
+  margin: 1px 0;  
+  color: #00ff00
+}
+  
+@font-face {
+  font-family: "Comic Sans";
+  src: url('../assets/ComicSansMS3.ttf') format('truetype');
+}
