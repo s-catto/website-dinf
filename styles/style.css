@@ -5,6 +5,8 @@ body {
   color: black;
   font-family: "Comic Sans", sans-serif;
   cursor: url("../assets/img/geral/cursor_wizard.png"), auto;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -110,13 +112,22 @@ ul {
   width: 75%;   
 }
 
-#divider {
-  width: 100%;
+#cx-ferias {
+  background-color: #e9158d;
+  width: 50%;
+  align-self: center;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 5px;
 }
 
-#counter {
-  display: flex;
-  justify-content: end;
+#ferias {
+  margin: 10px 10px;
+}
+
+#divider {
+  width: 100%;
 }
 
 #eu {
