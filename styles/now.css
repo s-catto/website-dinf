@@ -111,7 +111,13 @@ a.nav-elem:visited {
   background-color: #20124d;
   margin: 0 auto;
   padding: 10px 20px;
-  width: 75%;   
+  width: 75%; 
+  display: flex;
+  flex-direction: column;  
+}
+
+#rainbow-stars {
+  width: 25%;
 }
 
 #buttons {
@@ -125,6 +131,11 @@ a.nav-elem:visited {
   padding: 0px 20px;
   width: 75%;   
   text-align: center;
+}
+
+#witch {
+  width: 25%;
+  align-self: flex-end;
 }
 
 footer {
