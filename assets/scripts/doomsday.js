@@ -71,7 +71,7 @@ function calcDiaSemana (d, m, a) {
 
     // dia da semana
     if ((m <= 2) && (leap(a))) {
-        dia = (doomsday + (d - doom[m-1]) + 1) % 7;   
+        dia = (doomsday + (d - doom[m-1]) - 1) % 7;   
     } else {
         dia = (doomsday + (d - doom[m-1])) % 7;
     }

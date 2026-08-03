@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+body {
+  background-image: url("../assets/img/santos/catedral.jpg");
+  background-size: 150%;
+  background-position-x: center;
+  background-attachment: fixed;
+  color: black;
+  font-family: "Comic Sans", sans-serif;
+}
+
+header {
+  background-color: rgb(190, 138, 5);
+  margin: 10px auto;
+  width: 90%;
+  height: 200px;
+  outline-style: groove;
+  outline-color: rgb(68, 49, 2);
+  outline-width: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-elem {
+  background-color: black;
+  color: yellow;
+  margin: 10px;
+  padding: 5px;
+  outline-style: groove;
+  outline-color: goldenrod;
+  outline-width: 5px;
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  text-align: center;
+  color: black;
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 84px;
+  margin-bottom: 0;
+}
+
+h2 {
+    color: yellow;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.centering_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  color: green;
+}
+
+h4 {
+  padding: 0;
+  border: 0;
+  color: black;
+}
+
+a:link {
+  color: yellowgreen;
+}
+
+a:visited {
+  color: green;
+}
+
+a.nav-elem:link {
+  color: yellow;
+}
+
+a.nav-elem:visited {
+  color: yellow;
+}
+
+ul {
+    list-style-image: url(../assets/img/santos/star.gif);
+}
+
+p {
+  margin: 1px 0;  
+  color: goldenrod;
+  text-indent: 1em;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+#subtit {
+  color: black;
+  text-align: end;
+}
+
+#puter {
+    width: 20%;
+    padding: 25px 25px;
+}
+
+#pfp {
+  display: inline;
+  background-image: url("../assets/img/santos/nsky.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 25px 25px;
+}
+
+#gata {
+  width: 160px;
+  height: 200px;
+  background-image: url("../assets/img/geral/gata.png");
+  background-repeat: no-repeat;
+  background-size: 160px;
+}
+
+#gata:hover {
+  background-image: url("../assets/img/geral/linguinha.png");
+  background-repeat: no-repeat;
+  background-size: 160px;  
+  background-position-y: center;
+}
+
+#main {
+  background-color: #20124d;
+  margin: 40px auto;
+  padding: 10px;
+  width: 75%; 
+  outline-style: groove;
+  outline-color: rgb(68, 49, 2);
+  outline-width: 5px;  
+}
+
+#imagens {
+   display: flex;
+   justify-content: space-around; 
+}
+
+.santo_nome {
+    font-family: "Almendra SC", serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.santo {
+  outline: invert;
+  outline-color: rgb(68, 49, 2);
+  width: 50%;
+  max-width: 420px;
+}
+
+#interrupt {
+  background-color: rgb(68, 49, 2);
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 10px;
+  width: 75%; 
+  display: flex;
+  justify-content: center;
+}
+
+.rank {
+  color: #FF55FF;
+}
+
+.plus {
+  color: #55FFFF;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#bottom_button {
+  display: flex;
+  justify-content: end;
+}
+
+@font-face {
+  font-family: "Comic Sans";
+  src: url('../assets/ComicSansMS3.ttf') format('truetype');
+}
