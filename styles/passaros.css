@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
 body {
-  background-image: url("../assets/img/santos/catedral.jpg");
-  background-size: 150%;
+  background-image: url("../assets/img/passaros/background_ponkemon2.jpg");
+  background-size: 100%;
   background-position-x: center;
+  background-position-y: center;
   background-attachment: fixed;
   color: black;
   font-family: "Comic Sans", sans-serif;
 }
 
 header {
-  background-color: rgb(190, 138, 5);
+  background-color: #ff5c77;
   margin: 10px auto;
   width: 90%;
   height: 200px;
-  outline-style: groove;
-  outline-color: rgb(68, 49, 2);
-  outline-width: 10px;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -28,21 +26,18 @@ nav {
 }
 
 .nav-elem {
-  background-color: black;
-  color: yellow;
+  background-color: #ff5c77;
+  color: #c21e56;
   margin: 10px;
   padding: 5px;
-  outline-style: groove;
-  outline-color: goldenrod;
-  outline-width: 5px;
   text-align: center;
 }
 
 h1 {
   display: inline;
   text-align: center;
-  color: black;
-  font-family: "Almendra SC", serif;
+  color: #c21e56;
+  font-family: "Sunshiney", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 84px;
@@ -75,19 +70,19 @@ h4 {
 }
 
 a:link {
-  color: yellowgreen;
+  color: #008B8B;
 }
 
 a:visited {
-  color: green;
+  color: #008B8B;
 }
 
 a.nav-elem:link {
-  color: yellow;
+  color: #c21e56;
 }
 
 a.nav-elem:visited {
-  color: yellow;
+  color: #c21e56;
 }
 
 ul {
@@ -96,7 +91,7 @@ ul {
 
 p {
   margin: 1px 0;  
-  color: goldenrod;
+  color: #004400;
   text-indent: 1em;
 }
 
@@ -106,20 +101,15 @@ p {
   max-height: 100%;
 }
 
-#subtit {
-  color: black;
-  text-align: end;
-}
-
 #puter {
-    width: 20%;
     padding: 25px 25px;
 }
 
 #pfp {
   display: inline;
-  background-image: url("../assets/img/santos/nsky.gif");
-  background-size: contain;
+  background-image: url("../assets/img/passaros/sky.gif");
+  background-size: cover;
+  border-radius: 100%;
   background-repeat: no-repeat;
   padding: 25px 25px;
 }
@@ -140,13 +130,10 @@ p {
 }
 
 #main {
-  background-color: #20124d;
+  background-color: #5acd32;
   margin: 40px auto;
   padding: 10px;
   width: 75%; 
-  outline-style: groove;
-  outline-color: rgb(68, 49, 2);
-  outline-width: 5px;  
 }
 
 #imagens {
@@ -198,4 +185,9 @@ p {
 @font-face {
   font-family: "Comic Sans";
   src: url('../assets/ComicSansMS3.ttf') format('truetype');
+}
+
+.passarinhar {
+  font-family: "Sunshiney", cursive;
+  font-size: x-large;
 }
