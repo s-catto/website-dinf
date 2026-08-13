@@ -2,7 +2,7 @@
 
 body {
   background-image: url("../assets/img/geral/background/stars3.gif");
-  color: black;
+  color:#00ff00;
   font-family: "Comic Sans", sans-serif;
   cursor: url("../assets/img/geral/cursor_wizard.png"), auto;
 }
@@ -101,9 +101,12 @@ ul {
 
 #main {
   background-color: #20124d;
+  color: #00ff00;
   margin: 0 auto;
   padding: 10px 20px;
   width: 75%;   
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -121,7 +124,62 @@ footer {
 
 p {
   margin: 1px 0;  
-  color: #00ff00
+  color: inherit;
+}
+
+.fase {
+  align-self: left;
+  display: flex;
+  min-width: 0;
+  border-bottom: 5px solid;
+}
+
+#graddiv {
+  border-color: #c23276;
+  color: #c23276;
+  width: 100%;
+}
+
+#petdiv {
+  border-color: purple;
+  color: purple;
+  margin-left: calc((100% / 8) * 1);
+  width: calc((100% / 8) * 3);
+}
+
+#piradiv {
+  border-color: yellow;
+  color: yellow;
+  margin-left: calc((100% / 8) * 1);
+  width: calc((100% / 8) * 3);
+}
+
+#caaddiv {
+  border-color: #BA55D3;
+  color: #BA55D3;
+  margin-left: calc((100% / 8) * 3);
+  width: calc((100% / 8) * 4);
+}
+
+#caminho {
+  display: flex;
+}
+
+#linha {
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+#intervalo {
+  border-left: 2px solid white;
+  padding-left: 5px;
+  width: calc((100% / 8));
+}
+
+#timelabel {
+  align-self: flex-start;
 }
 
 @font-face {
