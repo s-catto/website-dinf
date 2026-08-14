@@ -132,6 +132,7 @@ p {
   display: flex;
   min-width: 0;
   border-bottom: 5px solid;
+  justify-content: center;
 }
 
 #graddiv {
@@ -159,6 +160,20 @@ p {
   color: #BA55D3;
   margin-left: calc((100% / 8) * 3);
   width: calc((100% / 8) * 4);
+}
+
+#labmetdiv {
+  border-color: #00CED1;
+  color: #00CED1;
+  margin-left: calc((100% / 8) * 6);
+  width: calc((100% / 8) * 1);
+}
+
+#ICdiv {
+  border-color: #32CD32;
+  color: #32CD32;
+  margin-left: calc((100% / 8) * 0);
+  width: calc((100% / 8) * 1);
 }
 
 #caminho {
