@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
 body {
   background-image: url("../assets/img/passaros/background_ponkemon2.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
